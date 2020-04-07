@@ -21,7 +21,7 @@ public class Lutador {
 		this.nascionalidade = nascionalidade;
 		this.idade = idade;
 		this.altura = altura;
-		this.peso = peso;
+		this.setPeso(peso);
 		this.vitorias = vitorias;
 		this.derrotas = derrotas;
 		this.empates = empates;
@@ -38,7 +38,7 @@ public class Lutador {
 	
 	public void status() {
 		System.out.println("-------------------------------");
-		System.out.println(this.getNome() + "é um peso " + this.getPeso());
+		System.out.println(this.getNome() + " é um peso " + this.getPeso());
 		System.out.println("Ganhou: " + this.getVitorias());
 		System.out.println("Perdeu: " + this.getDerrotas());
 		System.out.println("Empatou: " + this.getEmpates());
