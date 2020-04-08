@@ -28,16 +28,17 @@ public class Lutador {
 	}
 
 	public void apresetar() {
-		System.out.println("--------------------------------------------------");
+		
 		System.out.println("Chegou a hora! Apresentamos o lutador, " + this.getNome());
 		System.out.println("De nascionalidade: " + this.getNascionalidade());
 		System.out.println("Sua altura e peso é " + this.getAltura() +" "+ this.getPeso());
 		System.out.println("Possui "+ this.getVitorias() +" Vitórias" + " e " +
 		this.getDerrotas() + "derrotas" + this.getEmpates() +"Empates");
+		System.out.println("-------------------------------");
+
 	}
 	
 	public void status() {
-		System.out.println("-------------------------------");
 		System.out.println(this.getNome() + " é um peso " + this.getPeso());
 		System.out.println("Ganhou: " + this.getVitorias());
 		System.out.println("Perdeu: " + this.getDerrotas());

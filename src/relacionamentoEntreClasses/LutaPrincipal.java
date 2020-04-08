@@ -18,5 +18,12 @@ public class LutaPrincipal {
 			lutador[4].status();
 			lutador[5]= new Lutador ("Bob", "Brasileiro", 36, 1.79f, 72.8f, 0, 1, 4);
 			lutador[5].status();
+			
+			Luta luta01 = new Luta();
+			luta01.marcarLuta(lutador[0], lutador[1]);
+			luta01.lutar();
+			lutador[0].status();
+			lutador[1].status();
+			
 		}
 }
