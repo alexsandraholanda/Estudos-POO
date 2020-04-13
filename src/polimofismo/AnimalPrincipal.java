@@ -13,6 +13,9 @@ public class AnimalPrincipal {
 		
 		c.locomover();
 		ca.locomover();
+		
+		c.reagir("olá");
+		c.reagir(false);
 	
 		
 		
