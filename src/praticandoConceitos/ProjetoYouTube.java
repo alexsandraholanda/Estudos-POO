@@ -16,6 +16,9 @@ public class ProjetoYouTube {
 		
 		Aluno a[] = new Aluno[2];
 		a[0] = new Aluno("Alexsandra", 15, "F", "Alex");
-		System.out.println(v[0].toString());
+
+		Visualizacao vi = new Visualizacao(a[0], v[0]);
+		System.out.println(vi.toString());
+	
 	}
 }
